@@ -10,3 +10,8 @@ test('un número retorna ese número', () => {
   expect(sumar('1')).toBe(1);
   expect(sumar('5')).toBe(5);
 });
+
+// test 3
+test('dos números retornan su suma', () => {
+  expect(sumar('1,2')).toBe(3);
+});

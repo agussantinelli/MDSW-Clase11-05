@@ -1,9 +1,13 @@
 function sumar(string) {
-  // test 1: string vacío retorna 0
   if (string === '') return 0;
 
-  // test 2: un número retorna ese número
-  return parseInt(string);
+  const numeros = string.split(',');
+  let suma = 0;
+  for (let num of numeros) {
+    suma += parseInt(num);
+  }
+  return suma;
 }
+
 
 module.exports = sumar;
