@@ -19,3 +19,9 @@ test('puede tomar n numeros enteros, separados por coma, y retornar su suma', ()
 test('acepta salto de línea como separador', () => {
   expect(sumar('4\n2')).toBe(6);
 });
+
+// test 5
+test('el delimitador es configurable si se agrega //[delimitador]\\n al principio', () => {
+  expect(sumar('//;\n1;3;6;4')).toBe(14);
+  expect(sumar('//|\n1|3|6|4')).toBe(14);
+});
