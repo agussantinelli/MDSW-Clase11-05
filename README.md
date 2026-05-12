@@ -27,7 +27,20 @@
 
 <hr>
 
+<h2>✅ Requerimientos Implementados (Kata)</h2>
+<ol>
+  <li><b>Soporte de String vacío:</b> Retorna 0 si el input es una cadena vacía.</li>
+  <li><b>Manejo de un solo número:</b> Retorna el valor entero si solo se recibe un número.</li>
+  <li><b>Suma de n números:</b> Puede sumar una cantidad indeterminada de números separados por coma.</li>
+  <li><b>Múltiples delimitadores:</b> Soporta el uso de saltos de línea (<code>\n</code>) como separador además de la coma.</li>
+  <li><b>Delimitador configurable:</b> Permite definir un delimitador personalizado al inicio de la cadena (ej: <code>//;\n1;2</code>).</li>
+  <li><b>Validación de negativos:</b> Lanza una excepción con el mensaje <i>"no se permiten negativos"</i> seguido de los números detectados.</li>
+</ol>
+
+<hr>
+
 <h2>📂 Estructura del Proyecto</h2>
+
 
 <pre><code>MDSW-Clase11-05/
 ├── node_modules/             # Dependencias del proyecto (Jest, etc.)
