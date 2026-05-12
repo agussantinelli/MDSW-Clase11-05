@@ -21,6 +21,23 @@
   Este repositorio contiene la implementación de una <b>String Calculator</b> desarrollada bajo la disciplina de <b>Test-Driven Development (TDD)</b>. El objetivo es resolver de forma incremental las funcionalidades requeridas, asegurando la calidad del código mediante pruebas unitarias exhaustivas y rotación de roles entre los integrantes.
 </p>
 
+<hr>
+
+<h2>📂 Estructura del Proyecto</h2>
+
+<pre><code>MDSW-Clase11-05/
+├── node_modules/             # Dependencias del proyecto (Jest, etc.)
+├── string-calculator.js      # Lógica de la calculadora
+├── string-calculator.test.js # Pruebas unitarias con Jest
+├── package.json              # Configuración y scripts de npm
+├── package-lock.json         # Registro de versiones de dependencias
+├── .gitignore                # Archivos excluidos del control de versiones
+└── README.md                 # Documentación del proyecto
+</code></pre>
+
+
+<hr>
+
 <h2>🛠️ Protocolo de Desarrollo (Incremental)</h2>
 <p>Para cada funcionalidad solicitada, el equipo sigue este flujo de trabajo obligatorio:</p>
 
