@@ -25,3 +25,8 @@ test('el delimitador es configurable si se agrega //[delimitador]\\n al principi
   expect(sumar('//;\n1;3;6;4')).toBe(14);
   expect(sumar('//|\n1|3|6|4')).toBe(14);
 });
+
+// test 6
+test('lanza error con un negativo', () => {
+  expect(() => sumar('//*\n-1*2')).toThrow('no se permiten negativos: -1');
+});

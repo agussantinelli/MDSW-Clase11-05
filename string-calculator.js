@@ -9,6 +9,8 @@ function sumar(string) {
   }
 
   const numeros = string.split(delimitador);
+  const negativos = numeros.filter(n => n < 0);
+  if (negativos.length > 0) throw new Error(`no se permiten negativos: ${negativos.join(', ')}`);
   let suma = 0;
   for (let num of numeros) {
     suma += parseInt(num);
