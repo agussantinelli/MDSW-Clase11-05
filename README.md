@@ -5,6 +5,10 @@
   <i>Ciclo de Desarrollo Evolutivo y Colaborativo</i>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-LANGUAGE-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS Badge"/>
+  <img src="https://img.shields.io/badge/Jest-Tests-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest Badge"/>
+</p>
 <hr>
 
 <h2 align="center">👥 Integrantes del Equipo - Grupo 5</h2>
