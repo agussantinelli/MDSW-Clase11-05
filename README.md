@@ -7,7 +7,7 @@
 
 <hr>
 
-<h2 align="center">👥 Integrantes del Equipo</h2>
+<h2 align="center">👥 Integrantes del Equipo - Grupo 5</h2>
 <div align="center">
   <p>
     <b>Agustín Santinelli</b> | <b>Irina Repupilli</b> | <b>Francisco Lovatti</b> | <b>Martin Ratti</b>
