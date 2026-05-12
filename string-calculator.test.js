@@ -11,7 +11,7 @@ test('un número retorna ese número', () => {
 });
 
 // test 3
-test('dos números retornan su suma', () => {
+test('puede tomar n numeros enteros, separados por coma, y retornar su suma', () => {
   expect(sumar('1,2')).toBe(3);
 });
 
