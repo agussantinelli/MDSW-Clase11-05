@@ -23,5 +23,17 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Run tests
+    - name: Run static code analysis (Linter)
+      run: npm run lint
+
+    - name: Run security audit
+      run: npm audit --audit-level=high
+
+    - name: Run tests with coverage and thresholds
       run: npm test
+
+    - name: Upload code coverage report
+      uses: actions/upload-artifact@v4
+      with:
+        name: code-coverage-report
+        path: coverage/
