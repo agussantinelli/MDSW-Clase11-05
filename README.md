@@ -76,6 +76,12 @@
 </ul>
 
 <hr>
+<h2>🔄 Integración Continua</h2>
+<a href="https://github.com/agussantinelli/MDSW-Clase11-05/actions/workflows/ci.yml">
+  <img src="https://github.com/agussantinelli/MDSW-Clase11-05/actions/workflows/ci.yml/badge.svg" alt="ESLint status"/>
+</a>
+
+<hr>
 
 <p align="center">
   <sub>UTN - Facultad Regional Rosario</sub>
